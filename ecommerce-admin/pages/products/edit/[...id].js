@@ -10,6 +10,8 @@ export default function EditProductPage(){
 
     const router = useRouter();
     const {id} = router.query;
+    // console.log(id);
+    
     useEffect(() => {
         if(!id){
             return ;
