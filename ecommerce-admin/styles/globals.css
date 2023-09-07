@@ -28,5 +28,5 @@ table.basic tr td{
     @apply border border-gray-200 p-1;
 }
 table.basic a{
-    @apply bg-black text-white text-sm py-1 px-2 rounded-md inline-flex;
+    @apply bg-black text-white text-sm py-1 px-2 rounded-md inline-flex mr-1;
 }
