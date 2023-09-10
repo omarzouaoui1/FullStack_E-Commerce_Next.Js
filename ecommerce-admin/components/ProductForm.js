@@ -44,6 +44,8 @@ export default function ProductForm({
             onChange={ev => setTitle(ev.target.value)}
             />
 
+            <label>Photos</label>
+
             <label>Description</label>
             <textarea 
             placeholder="Description"
